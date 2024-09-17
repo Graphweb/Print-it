@@ -16,3 +16,21 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+	// Sélectionne les éléments flèche //
+	const arrowLeft = document.querySelector('.arrow_left');
+    const arrowRight = document.querySelector('.arrow_right');   //// comment choisir entre let et const ? ///
+
+	 // Ajouter des event listeners pour chaque flèche //
+	 arrowLeft.addEventListener('click', function() {
+        console.log("Clic sur la flèche gauche");
+        });
+
+    arrowRight.addEventListener('click', function() {
+        console.log("Clic sur la flèche droite");
+    });
+		//// fin des fleches ////
+
+
+	// Sélectionner tous les points
+	const tousLesPoints = document.querySelector('.dots');
+
